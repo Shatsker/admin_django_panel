@@ -15,3 +15,5 @@ RUN pip install -r requirements.txt
 COPY . /app
 
 RUN python admin_app/manage.py collectstatic --noinput
+
+ENTRYPOINT ["python", "admin_app/manage.py", "runserver", "0.0.0.0:8000"]

@@ -3,23 +3,18 @@ services:
   movie_admin:
     build:
       context: .
-    ports:
-      - "8000:8000"
-    command: python admin_app/manage.py runserver 0.0.0.0:8000
     volumes:
       - volume_static:/app/admin_app/static:ro
     depends_on:
       - movie_db
+    ports:
+      - "8000:8000"
   movie_db:
     image: postgres:13
     volumes:
       - $HOME/postgresql/data:/var/lib/postgresql/data
-    environment:
-      POSTGRES_PASSWORD: ${DB_PASSWORD}
-      POSTGRES_USER: ${DB_USER}
-      POSTGRES_DB: ${DB_NAME}
-    ports:
-      - "5432:5432"
+    env_file:
+      - db_variables.env
   nginx:
     image: nginx:1.19.2
     volumes:

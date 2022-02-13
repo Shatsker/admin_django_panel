@@ -31,6 +31,7 @@ new_admin_panel_sprint_2/.idea
 static/
 admin_app/static/
 .idea
+db_variables.env
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
