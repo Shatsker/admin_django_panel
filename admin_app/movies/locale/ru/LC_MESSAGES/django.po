@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-02 21:46+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: apps.py:8
+msgid "movies"
+msgstr "Фильмы"
+
+#: models.py:11
+msgid "name"
+msgstr "Название"
+
+#: models.py:12 models.py:56
+msgid "description"
+msgstr "Описание"
+
+#: models.py:16
+msgid "genre"
+msgstr "Жанр"
+
+#: models.py:17
+msgid "genres"
+msgstr "Жанры"
+
+#: models.py:29
+msgid "male"
+msgstr "Мужчина"
+
+#: models.py:30
+msgid "female"
+msgstr "Женщина"
+
+#: models.py:31
+msgid "other"
+msgstr "Другое"
+
+#: models.py:33
+msgid "full_name"
+msgstr "Полное имя"
+
+#: models.py:35
+msgid "gender"
+msgstr "Гендер"
+
+#: models.py:39
+msgid "person"
+msgstr "Человек"
+
+#: models.py:40
+msgid "persons"
+msgstr "Люди"
+
+#: models.py:52
+msgid "movie"
+msgstr "Фильм"
+
+#: models.py:53
+msgid "tv_show"
+msgstr "ТВ шоу"
+
+#: models.py:55
+msgid "title"
+msgstr "Заголовок"
+
+#: models.py:57
+msgid "creation_date"
+msgstr "Дата выхода"
+
+#: models.py:58
+msgid "certificate"
+msgstr "Сертификат"
+
+#: models.py:60
+msgid "file_path"
+msgstr "Файловый путь"
+
+#: models.py:66
+msgid "rating"
+msgstr "Рейтинг"
+
+#: models.py:73
+msgid "filmwork_type"
+msgstr "Тип кинопроизведения"
+
+#: models.py:82
+msgid "filmwork"
+msgstr "Кинопроизведение"
+
+#: models.py:83
+msgid "filmworks"
+msgstr "Кинопроизведения"
+
+#: models.py:105
+msgid "role"
+msgstr "Роль"

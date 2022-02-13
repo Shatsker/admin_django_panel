@@ -1,0 +1,6 @@
+Dockerfile
+.git
+.gitignore
+.cache
+!README*.md
+README-secret.md
